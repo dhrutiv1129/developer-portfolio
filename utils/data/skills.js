@@ -1,4 +1,7 @@
 export const skillsData = [
+  'Python',
+  'Java',
+  'C++',
   'HTML',
   'CSS',
   'Javascript',
@@ -16,9 +19,6 @@ export const skillsData = [
   'Go',
   'Figma',
   'Firebase',
-  'MaterialUI',
-  'Nginx',
-  'Strapi'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

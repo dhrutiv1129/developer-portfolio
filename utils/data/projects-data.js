@@ -1,42 +1,59 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
+        name: 'PCA / SVD Visualizer',
+        description: "Built an interactive browser-based tool to explore Principal Component Analysis (PCA) and Singular Value Decomposition (SVD) in real time. Implemented all underlying math from scratch (Jacobi SVD, covariance PCA, analytic eigendecomposition) without external libraries. Features include a live 2D scatter plot with dynamically updating principal components, a matrix decomposition editor for full UΣVᵀ factorization, and an animated scree plot for variance explained with low-rank approximation controls.",
+        tools: ['JavaScript', 'HTML', 'CSS', 'Linear Algebra'],
+        role: "Software",
+        code: 'https://github.com/dhrutiv1129/PCA-SVD-Visualizer',
+        demo: 'https://heartfelt-zabaione-dd5864.netlify.app/',
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
+        name: 'Financial Planning Tool (In Progress)',
+        description: "Developing an AI-assisted financial planning application to analyze user spending, generate insights, and produce personalized financial reports. Integrating data persistence, forecasting models, and interactive dashboards to help users track and optimize financial decisions over time.",
+        tools: ['React', 'Firebase', 'OpenAI API', 'Node.js'],
+        role: 'Software',
         code: '',
         demo: '',
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
+        name: 'Option Pricing Model (Monte Carlo Simulation)',
+        description: "Implemented a Monte Carlo simulation engine to estimate the theoretical price of financial options. Simulates thousands of stock price paths using Geometric Brownian Motion (GBM), computes payoffs for call/put options, and discounts expected values using a risk-free rate. Designed to analyze the impact of volatility, time to expiration, and strike price on option valuation.",
+        tools: ['Python', 'NumPy', 'Mathematics', 'Finance'],
+        role: 'Software',
+        code: 'https://github.com/dhrutiv1129/options',
+        demo: 'https://options-crrmmzwtzusappq8vbcamve.streamlit.app/',
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
+        name: 'Bug Meme Roaster',
+        description: "Built a developer tool that humorously 'roasts' users based on the number of bugs in their code. Monitors errors in real time and dynamically displays meme-based feedback (The Incredibles) tied to bug count. Designed to make debugging slightly less painful and slightly more chaotic.",
+        tools: ['JavaScript', 'VS Code Extension API', 'UI/UX'],
+        role: 'Software',
+        code: 'https://github.com/dhrutiv1129/bug-meme-roaster',
         demo: '',
-        role: 'Full Stack Developer',
+     }
+
+        
+    
+    ,
+   {
+    id: 5,
+    name: 'iMessage Bot (In Progress)',
+    description: "Building an automated iMessage bot that responds to user inputs in real time using custom logic and APIs. Designed to handle conversational interactions, trigger actions, and simulate human-like responses within Apple’s messaging ecosystem. Focused on creating a seamless, responsive, and slightly mischievous messaging experience.",
+    tools: ['JavaScript', 'Node.js', 'APIs', 'Automation'],
+    role: 'Software',
+    code: 'https://github.com/dhrutiv1129/TextMessenger',
+    demo: '',
+}
+   ,{
+        id: 6,
+        name: 'Explore My Work',
+        isCTA: true
     }
 ];
-
 
 // Do not remove any property.
 // Leave it blank instead as shown below
